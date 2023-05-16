@@ -1,0 +1,79 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: blue;
+}.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: blue;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  text-shadow: #4CAF50;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  background-color: aquamarine;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color:greenyellow;
+}
+
+
+nav {
+  background-color: aqua;
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  flex: 1;
+  text-align: center;
+  line-height: 50px;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: blueviolet;
+}
